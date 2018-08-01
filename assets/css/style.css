@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+
+.top-nav{
+    background: #ffffff;
+    border: 2px solid #cccccc;
+    margin-top:-8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.yourname{
+    color: #ffffff;
+    background:#4aaaa5;
+    padding: 15px;
+    font-size: 30px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: block;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.top-nav .item{
+    display: inline-block;
+    padding-top: 20px;
+    vertical-align: middle;
+
+}
+
+.top-nav .item:hover{
+    color: black;
+}
+
+p{
+    text-align: left;
+    color:#4aaaa5;
+    font-size: 30px;
+}
+
+.main{
+    background-color: #ffffff;
+    height: 420px;
+    width: 960px;
+    margin-top: 25px;
+
+}
+
+.trans{
+    height:350px;
+    width: 900px;
+    margin-top: 40px;
+    margin:20px;
+    background:rgba(0,0,0,0)
+
+}
+
+#me {
+    height: 190px;
+    width: 280px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.aboutme,
+p1,
+p2,
+p3,
+p4,
+p5,
+p6,
+p7,
+p8,
+p9,
+p10{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p1,
+p2,
+p3,
+p4,
+p5,
+p6,
+p7,
+p8,
+p9,
+p10{
+    font-size: 15px;
+    color:#777777;
+    text-align: left;
+}
+
+
+
+.aboutme{
+    color:#4aaaa5;
+    text-align: left;
+    font-size: 30px;
+    border: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.fl {
+    float: left;
+  }
+  
+.fr{
+    float: right;
+}
+  
+.clearf:after,
+.clearf:before {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 1;
+    border-top: 2px solid #ccc;
+    margin: 0 0;
+    padding: 0; 
+}
+
+footer{
+    position: absolute;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: #4aaaa5;
+    width: 100%;
+    height:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    color: #ffffff;
+    background: #777777;
+    text-align: center;
+}
+
+p11{
+    margin-bottom: 5px;
+}
