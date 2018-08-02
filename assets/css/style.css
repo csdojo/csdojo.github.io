@@ -42,7 +42,6 @@ a {
 }
 
 
-
 .main{
     position: relative;
     background-color: #ffffff;
@@ -70,6 +69,8 @@ a {
     margin-right: 15px;
     margin-bottom: 10px;
 }
+
+
 
 .aboutme,
 p1,
@@ -109,6 +110,7 @@ p10{
     border: 5px;
     padding-top: 5px;
     padding-bottom: 10px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
 }
 
 
